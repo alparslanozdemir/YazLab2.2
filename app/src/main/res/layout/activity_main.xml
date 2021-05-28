@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="-67dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <Button
+                android:id="@+id/enuzunmesafe"
+                android:layout_width="298dp"
+                android:layout_height="46dp"
+                android:onClick="sorgu1"
+                android:text="@string/en_uzun_mesafeli_5_yolculuk" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="299dp"
+                android:layout_height="238dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/veriler" />
+
+            <Button
+                android:id="@+id/aracsayisi"
+                android:layout_width="299dp"
+                android:layout_height="77dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="sorgu2"
+                android:text="@string/ki_tarih_aras_belirli_lokasyondan_hareket_eden_ara_say_s" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/ba_lang_tarihi"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/editTextDate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/biti_tarihi"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/editTextLokasyon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="@string/lokasyon_id"
+                android:importantForAutofill="no"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="299dp"
+                android:layout_height="238dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/veriler" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="harita_fonk"
+                android:text="@string/belirli_bir_g_nde_en_uzun_seyahatin_yolu" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

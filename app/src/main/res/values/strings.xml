@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MobilSorgu</string>
+    <string name="veriler">Veriler</string>
+    <string name="en_uzun_mesafeli_5_yolculuk">En uzun Mesafeli 5 yolculuk</string>
+    <string name="biti_tarihi">Bitiş Tarihi</string>
+    <string name="ba_lang_tarihi">Başlangıç tarihi</string>
+    <string name="ki_tarih_aras_belirli_lokasyondan_hareket_eden_ara_say_s">İki tarih arası belirli lokasyondan hareket eden araç sayısı</string>
+    <string name="lokasyon_id">Lokasyon ID</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="belirli_bir_g_nde_en_uzun_seyahatin_yolu">Belirli bir günde en uzun seyahatin yolu</string>
+</resources>

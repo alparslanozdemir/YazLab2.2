@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195804450939",
+    "project_id": "yazlab22-a063d",
+    "storage_bucket": "yazlab22-a063d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195804450939:android:2006f4c4e0b3b87e6b92de",
+        "android_client_info": {
+          "package_name": "com.yazlab.mobilsorgu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195804450939-f3t9rg1lft3reg8bq6cu3abga0ct0qd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tHy3W_VDewLqNdEB3j_7P1uDU5XUuOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195804450939-f3t9rg1lft3reg8bq6cu3abga0ct0qd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
